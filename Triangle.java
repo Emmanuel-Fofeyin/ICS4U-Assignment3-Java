@@ -5,6 +5,7 @@
  * @version 1.0
  * @since 2024-05-05
  */
+
 public class Triangle {
     // Instance variables for the sides of the triangle
     private double sideA;
