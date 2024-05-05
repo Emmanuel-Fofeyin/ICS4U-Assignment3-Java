@@ -11,7 +11,7 @@ public class TriangleTest {
         System.out.println("");
 
         // Test the first triangle (3 mm, 4 mm, 5 mm)
-        TriangleTest testTriangle1 = new Triangle(3, 4, 5);
+        Triangle testTriangle1 = new Triangle(3, 4, 5);
         System.out.println("Created a 3 mm by 4 mm by 5 mm triangle.");
         System.out.println(" → Is the triangle valid: " + testTriangle1.isValid());
         System.out.println(" → Semiperimeter: " + testTriangle1.semiPerimeter() + " mm");
@@ -28,7 +28,7 @@ public class TriangleTest {
         System.out.println("");
 
         // Test the second triangle (3 mm by 3 mm by 3 mm)
-        TriangleTest testTriangle2 = new Triangle(3, 3, 3);
+        Triangle testTriangle2 = new Triangle(3, 3, 3);
         System.out.println("Created a 3 mm by 3 mm by 3 mm triangle.");
         System.out.println(" → Is the triangle valid: " + testTriangle2.isValid());
         System.out.println(" → Semiperimeter: " + testTriangle2.semiPerimeter() + " mm");
@@ -45,7 +45,7 @@ public class TriangleTest {
         System.out.println("");
 
         // Test the third triangle (3 mm by 4 mm by 4 mm)
-        TriangleTest testTriangle3 = new Triangle(3, 4, 4);
+        Triangle testTriangle3 = new Triangle(3, 4, 4);
         System.out.println("Created a 3 mm by 4 mm by 4 mm triangle.");
         System.out.println(" → Is the triangle valid: " + testTriangle3.isValid());
         System.out.println(" → Semiperimeter: " + testTriangle3.semiPerimeter() + " mm");
@@ -62,7 +62,7 @@ public class TriangleTest {
         System.out.println("");
 
         // Test the fourth triangle (2 mm by 3 mm by 4 mm)
-        TriangleTest testTriangle4 = new Triangle(2, 3, 4);
+        Triangle testTriangle4 = new Triangle(2, 3, 4);
         System.out.println("Created a 2 mm by 3 mm by 4 mm triangle.");
         System.out.println(" → Is the triangle valid: " + testTriangle4.isValid());
         System.out.println(" → Semiperimeter: " + testTriangle4.semiPerimeter() + " mm");
@@ -79,7 +79,7 @@ public class TriangleTest {
         System.out.println("");
 
         // Test the fifth triangle (23 mm by 4 mm by 6 mm)
-        TriangleTest testTriangle5 = new Triangle(23, 4, 6);
+        Triangle testTriangle5 = new Triangle(23, 4, 6);
         System.out.println("Created a 23 mm by 4 mm by 6 mm triangle.");
         System.out.println(" → Is the triangle valid: " + testTriangle5.isValid());
         System.out.println(" → Semiperimeter: " + testTriangle5.semiPerimeter() + " mm");
