@@ -6,7 +6,7 @@
  * @since 2024-05-05
  */
 
-public class TriangleTest {
+public class Triangle {
     public static void main(String[] args) {
         System.out.println("");
 
