@@ -6,7 +6,7 @@
  * @since 2024-05-05
  */
 
-public class Triangle {
+public class TriangleTest {
     // Instance variables for the sides of the triangle
     private double sideA;
     private double sideB;
