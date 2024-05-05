@@ -62,7 +62,7 @@ public class TriangleTest {
         System.out.println("");
 
         // Test the fourth triangle (2 mm by 3 mm by 4 mm)
-        Triangle testTriangle4 = new Triangle(2, 3, 4);
+        TriangleTest testTriangle4 = new Triangle(2, 3, 4);
         System.out.println("Created a 2 mm by 3 mm by 4 mm triangle.");
         System.out.println(" → Is the triangle valid: " + testTriangle4.isValid());
         System.out.println(" → Semiperimeter: " + testTriangle4.semiPerimeter() + " mm");
